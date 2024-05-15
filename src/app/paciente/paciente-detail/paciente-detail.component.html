@@ -1,0 +1,10 @@
+<div *ngIf="paciente" class="card">
+  <div class="card-header">
+      Detalle del paciente
+  </div>
+  <div class="card-body">
+      <h5 class="card-title">{{ paciente.nombre }}</h5>
+      <p class="card-text">Edad: {{ paciente.edad }}</p>
+      <p class="card-text">Diagnóstico: {{ paciente.diagnostico }}</p>
+  </div>
+</div>
